@@ -1,0 +1,20 @@
+.wrapper {
+  background-image: url("https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.container-fluid h2 {
+  color: #EFC050;
+}
+
+.container-fluid section > ul > li {
+  color: tomato;
+}
+
+@media (min-width: 768px) {
+  .panel-footer {
+    margin-top: 50px;
+  }
+}

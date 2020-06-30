@@ -1,0 +1,32 @@
+.container-fluid h2 {
+  color: #EFC050;
+}
+.container-fluid h3 {
+  color: #EFC050;
+  font-size: 1.2em;
+}
+.container-fluid span {
+  font-style: italic;
+  color: tomato;
+  font-size: 1em;
+}
+
+.wrapper {
+  background-image: url("https://cutewallpaper.org/21/beautiful-backgrounds-hd/hd-backgrounds-websites-hd-pics-photos-beautiful-attractive-.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .panel-footer {
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin-top: 109px;
+  }
+}
+
+/*# sourceMappingURL=hello.css.map */

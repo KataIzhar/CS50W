@@ -1,0 +1,128 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/21ed549f-1794-4e1e-9c08-2e6ba64ba404/d63c6ka-8b4edd30-5151-4170-b6fd-4e9cef0cc1aa.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMjFlZDU0OWYtMTc5NC00ZTFlLTljMDgtMmU2YmE2NGJhNDA0XC9kNjNjNmthLThiNGVkZDMwLTUxNTEtNDE3MC1iNmZkLTRlOWNlZjBjYzFhYS5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.CYjB04AC2NFBXEHy1CjMbTehMyFL9HvKxUdhzTFtJhs");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  min-height: 100%;
+}
+
+/* Start of Header */
+#header-nav {
+  background-color: #222;
+  border-radius: 0;
+  border-bottom: 2px solid olivedrab;
+}
+
+.navbar-brand {
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+.navbar-brand h1 {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-left: 30px;
+}
+.navbar-brand a:hover, .navbar-brand .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #fff;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #3CB371;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #E7E7E7;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -50px;
+}
+
+/* End of Header */
+/* Start of Body */
+.container-fluid {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 1.2em;
+}
+.container-fluid #psec {
+  margin-top: 50px;
+}
+.container-fluid span {
+  font-style: italic;
+  font-size: 0.7em;
+  color: #7FCDCD;
+}
+.container-fluid h2 {
+  color: #EFC050;
+}
+
+/* End of Body */
+/* Start of FOOTER */
+.panel-footer {
+  color: white;
+  background-color: #222;
+  border-top: 1px solid olivedrab;
+  text-align: center;
+}
+
+#contact, #address {
+  line-height: 2;
+}
+
+#contact > span, #address > span {
+  font-size: 1.3em;
+}
+
+hr {
+  width: 50%;
+  margin: 1.5px auto 3px;
+}
+
+/* END FOOTER */
+/* Start of Media Queries */
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+
+  .navbar-brand h1 {
+    padding-top: 10px;
+    font-size: 5vw;
+  }
+
+  #collapsable-nav a {
+    font-size: 1.2em;
+  }
+}
+@media (min-width: 768px) {
+  .panel-footer {
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin-top: 119px;
+  }
+}
+/* End of Media Queries */
+
+/*# sourceMappingURL=styles.css.map */

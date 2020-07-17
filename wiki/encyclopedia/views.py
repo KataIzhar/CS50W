@@ -63,7 +63,7 @@ def create(request):
             textarea = form.cleaned_data["textarea"]
             entries = util.list_entries()
             if title in entries:
-                return render(request, "encyclopedia/error.html", {"form": Search(), "message": "Page already exist"})
+                return render(request, "encyclopedia/error.html", {"form": Search(), "message": "Page already exists"})
             else:
                 util.save_entry(title,textarea)
                 page = util.get_entry(title)

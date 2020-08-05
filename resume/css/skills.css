@@ -18,3 +18,53 @@
     margin-top: 36px;
   }
 }
+
+/* Animations */
+@keyframes move {
+  from {
+    left: 0%;
+    opacity: 0;
+  }
+  to {
+    left: 5%;
+    opacity: 1;
+  }
+}
+.move {
+  position: relative;
+  animation-name: move;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  width: 100%;
+}
+
+@keyframes move-back {
+  from {
+    right: 0%;
+    opacity: 0;
+  }
+  to {
+    right: 5%;
+    opacity: 1;
+  }
+}
+.move-back {
+  position: relative;
+  animation-name: move-back;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  width: 100%;
+}
+@keyframes light {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.light {
+  animation-name: light;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}

@@ -1,3 +1,8 @@
+body {
+  overflow-x: hidden;
+}
+
+
 .container-fluid h3 {
   font-family: Brush Script MT;
   color: #EFC050;
@@ -29,3 +34,20 @@
 }
 
 /*# sourceMappingURL=hello.css.map */
+
+
+/* animations */
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.grow {
+  animation-duration: 3s;
+  animation-name: slidein;
+}

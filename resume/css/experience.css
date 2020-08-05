@@ -1,3 +1,4 @@
+
 .wrapper {
   background-image: url("https://images.wallpaperscraft.com/image/code_coding_binary_code_abstract_patterns_112140_1366x768.jpg");
   background-position: center;
@@ -20,4 +21,20 @@ h2 {
   .panel-footer {
     margin-top: 100px;
   }
+}
+
+/* animations */
+@keyframes slidein {
+  from {
+    left: 0%;
+    opacity: 0;
+  }
+  to {
+    left: 5%;
+    opacity: 1;
+  }
+}
+.move {
+  animation-duration: 1s;
+  animation-name: slidein;
 }

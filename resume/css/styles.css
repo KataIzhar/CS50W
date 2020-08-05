@@ -13,7 +13,6 @@ html {
 
 
 
-
 /* Start of Header */
 #header-nav {
   background-color: #222;
@@ -142,3 +141,25 @@ hr {
   }
 }
 /* End of Media Queries */
+
+
+
+
+/* animations */
+@keyframes move {
+  from {
+    left: 0%;
+    opacity: 0;
+  }
+  to {
+    left: 5%;
+    opacity: 1;
+  }
+}
+.move {
+  position: relative;
+  animation-name: move;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  width: 50%;
+}

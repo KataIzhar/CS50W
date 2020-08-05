@@ -44,7 +44,11 @@
     opacity: 0;
   }
   to {
+<<<<<<< HEAD
     right: 8%;
+=======
+    right: 6%;
+>>>>>>> 57b7c2ac0a0946956712453fb27c45743d62f790
     opacity: 1;
   }
 }
